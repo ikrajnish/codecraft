@@ -16,11 +16,11 @@ export default function Code() {
     `;
 
     return (
-        <div className="min-h-screen bg-gradient-to-b from-indigo-900 via-purple-900 to-gray-900 text-white">
+        <div className="min-h-screen bg-black text-white">
             <Header />
             <div className="pt-20 px-8 text-center">
                 <h1 className="text-5xl font-extrabold mb-6 bg-clip-text text-transparent bg-gradient-to-r from-purple-400 to-blue-500">
-                    Unleash Your <span className="text-yellow-500">Creativity</span>
+                    Unleash Your <span className="text-gray-300">Creativity</span>
                 </h1>
                 <p className="text-xl font-medium mb-10 bg-clip-text text-transparent bg-gradient-to-r from-pink-400 to-purple-500">
                     Code with passion and watch your ideas come alive!
@@ -114,14 +114,14 @@ export default function Code() {
                     className="rounded-lg shadow-lg border-2 border-gray-600"
                 ></iframe>
             </div>
-            <footer className="bg-transparent text-gray-300 py-6 mt-8">
-                <div className="flex justify-center items-center space-x-4">
-                    <div className="text-2xl font-extrabold bg-clip-text text-transparent bg-gradient-to-r from-pink-400 to-red-500">
-                        Code<span className="text-blue-400">Craft</span>
+            <footer className="bg-transparent text-gray-300 py-4">
+                <div className="flex justify-center items-center space-x-2">
+                    <div className="text-white text-lg font-bold">
+                        Code<span className="text-blue-500 underline">Craft</span>
                     </div>
                     <span>|</span>
-                    <p className="text-lg bg-clip-text text-transparent bg-gradient-to-r from-teal-400 to-green-500">
-                        Made with ❤️ by <span className="font-bold">Rajnish Kumar</span>
+                    <p>
+                        Made with lot of ❤️ by Rajnish Kumar.
                     </p>
                 </div>
             </footer>
